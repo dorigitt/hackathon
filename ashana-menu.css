@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+.submain {
+    display: flex;
+}
+
+.main {
+    list-style-type: none;
+    background-color: #f0f8ff;
+    padding: 50px;
+    margin-left: 350px;
+    border-radius: 3px;
+    margin-right: 10px;
+    width: 750px;
+    height: 800px;
+    font-size: 18px;
+    border: 1px solid black;
+}
+
+.ashana1 {
+    margin-right: 50px;
+}
+
+
+
+button {
+    margin-left: 15px;
+    background-color: #626267;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 10px;
+    height: 20px;
+}
+
+.item:last-child {
+    margin-right: 0;
+}
+
+.item:hover {
+    position: relative;
+    bottom: 5px;
+}
+
+button:hover {
+    position: relative;
+    bottom: 2px;
+    filter: brightness(1.2);
+}
+.price-text {
+    font-size: 16px;
+    color: #50505F;
+    margin-bottom: 50px;
+}
+
+
+.price-table {
+    max-width: 254px;
+    margin-left:0px;
+}
+
+.price-input {
+    padding: 22px 18px;
+    width: 344px;
+    height: 65px;
+    background: #FFFFFF;
+    border: 1px solid #5D5D5F;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #000000;
+    outline: none;
+    margin-bottom: 15px;
+}
+
+.price .button {
+    width: 100%;
+}
+.price {
+    position: relative;
+    padding-bottom: 121px;
+    margin-left: 600px;
+}
+
+.price .title2 {
+    margin-bottom: 20px;
+}

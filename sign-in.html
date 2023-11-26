@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authorization Example</title>
+    <link rel="stylesheet" href="./sign-in.css">
+</head>
+<body>
+   
+    <div class = "autho">
+        <h1>account login</h1>
+        
+            <label for="username">Username: </label>
+            <input type="text" id="username" required class = "username"><br><br>
+    
+            <label for="password">Password:</label>
+            <input type="password" id="password" required class = " password"><br><br>
+    
+            <button type="button" onclick="authorize()">sign in</button>
+       
+    </div>
+   
+
+    <script>
+        function authorize() {
+            var username = document.getElementById('username').value;
+            var password = document.getElementById('password').value;
+
+           
+            if (username === 'your_username' && password === 'your_password') {
+               
+                window.location.href = 'index.html';
+               
+            } else {
+                alert('Authorization failed. Please check your username and password.');
+            }
+        }
+    </script>
+</body>
+</html>

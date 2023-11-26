@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./fast-food-menu.css">
+</head>
+
+<body>
+    <div class="main">
+        <hr>
+        <h1>Fast Food</h1>
+        <hr>
+        <ul>
+            <li class="item">чизбургер куриный___________________ <b>990</b><button class="action"
+                    onclick="addToTotal(990)">Выбрать</button></li>
+            <li class="item">чизбургер говяжий _________________ <b>1050</b><button class="action"
+                    onclick="addToTotal(1050)">Выбрать</button></li>
+            <li class="item">донер с курицей ___________________ <b>1290</b><button class="action"
+                    onclick="addToTotal(1290)">Выбрать</button></li>
+            <li class="item">донер с говядиной _________________ <b>1390</b><button class="action"
+                    onclick="addToTotal(1390)">Выбрать</button></li>
+            <li class="item">тако + фри ________________________ <b>1090</b><button class="action"
+                    onclick="addToTotal(1090)">Выбрать</button></li>
+            <li class="item">пицца "Маргарита" _________________ <b>1090</b><button class="action"
+                    onclick="addToTotal(1090)">Выбрать</button></li>
+            <li class="item">пицца "Пепперони" _________________ <b>1590</b><button class="action"
+                    onclick="addToTotal(1590)">Выбрать</button></li>
+            <li class="item">пицца "4-сыра" ____________________ <b>1690</b><button class="action"
+                    onclick="addToTotal(1690)">Выбрать</button></li>
+            <li class="item">хотдог _____________________________ <b>990</b><button class="action"
+                    onclick="addToTotal(990)">Выбрать</button></li>
+        </ul>
+
+        <div>
+            <h3>Итого: <span id="total">0</span></h3>
+            <button onclick="clearTotal()">Очистить корзину</button>
+            
+        </div>
+    </div>
+    <section class="price" id="help">
+        <h2 class="title2">Payment</h2>
+        <div class="price-text">
+            Fill out the data in order to pay
+        </div>
+        <div action="" class="price-table">
+            <input type="text" class="price-input" id="name" placeholder="Your Name">
+            <input type="text" class="price-input" id="phone" placeholder="Your card number">
+            <input type="text" class="price-input" id="car" placeholder="A number on the back of the card">
+            <button class="button price-button" id="price-button" type="button">Pay</button>
+        </div>
+
+    </section>
+
+    <script src="fast-food-menu.js"> </script>
+</body>
+
+</html>
+
+

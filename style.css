@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Limelight', sans-serif;
+    
+}
+
+.header {
+    border-bottom: 1px solid black;
+    height: 100px;
+    display: flex;
+}
+
+.menu {
+    margin-left: 450px;
+    padding-top: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+   
+    font-weight: lighter;
+}
+
+.logo {
+    display: flex;
+}
+
+.sdu {
+    padding-top: 24px;
+    padding-left: 25px;
+    padding-bottom: 0;
+    width: 40px;
+    height: 40px;
+}
+
+
+.butt{
+   
+    width: 80px;
+    height: 30px;
+    border:none;
+    background:#adbaba;
+    color:white;
+   
+    border-radius:5px;
+   
+    
+    
+}
+.call {
+    display: flex;
+    flex-direction: row;
+    padding-left: 80px;
+}
+.instagram{
+    width: 90px;
+    display:flex;
+}
+
+.inst {
+    width: 20px;
+    height: 20px;
+    padding-top: 13px;
+    padding-right: 4px;
+}
+
+ul {
+   
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-right:40px
+}
+
+li {
+   
+    margin-right: 160px;
+    font-weight: bold;
+}
+
+a {
+
+    font-weight: lighter;
+    color: #030305;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+a:hover {
+    border-bottom: 2px solid black;
+}
+
+.main {
+    background-image: url("https://img.freepik.com/free-vector/lunch-school-cafeteria-concept-teen-boys-girls-eating-school-canteen-cafe-standing-counter-buying-food-catering-buffet-school-break-facilities-topics_74855-10099.jpg?w=2000&t=st=1700945266~exp=1700945866~hmac=3ff4b1eea3108210eb868fee92f0999ff7e7ad361e565779fa7b337d1e14bd94");
+    background-position: center;
+    background-size: cover;
+    padding: 104px 0 154px 0;
+}
+
+.info {
+    max-width: 855px;
+    padding-left: 20px;
+}
+
+.title {
+   
+    font-weight: bold;
+    font-size: 80px;
+    color: rgb(6, 5, 5);
+    margin-bottom: 40px;
+}
+
+.text {
+   
+    font-size: 38px;
+    color: #060404;
+    margin-bottom: 70px;
+    max-width: 502px;
+    font-weight: 500;
+}
+
+.button {
+    padding: 20px;
+    width: 334px;
+    height: 64px;
+    background: #030305;
+    border: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    transition: background-color .5s;
+    border-radius:10px;
+    
+}
+
+.button:hover {
+    cursor: pointer;
+    background: #575757;
+}
+
+.order-type {
+    padding: 30px 80px;
+}
+
+.title2 {
+    font-weight: bold;
+    font-size: 60px;
+    color: #030305;
+    text-transform: uppercase;
+}
+.title3 {
+    font-weight: bold;
+    font-size: 60px;
+    color: #030305;
+    text-transform: uppercase;
+}
+.title33{
+    width: 800px;
+}
+.order-types {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.order-item {
+    max-width: 384px;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-right: 50px;
+}
+
+.order-image:hover {
+    transform: scale(1.1);
+}
+
+.order-image img {
+    width: 200px;
+    height: 200px;
+    vertical-align: bottom;
+    transition: all .3s;
+}
+
+.order-name {
+    font-weight: bold;
+    font-size: 24px;
+    color: #030305;
+    padding: 15px 0 13px 0;
+}
+
+.order-info {
+    align-items: center;
+    justify-content: center;
+    color: #030305;
+    font-weight: 700;
+}
+
+.order-action {
+    margin-top: 13px;
+}
+
+.order-button {
+    width: 100%;
+    padding: 15px;
+    height: 54px;
+}
+
+.price {
+    position: relative;
+    padding-bottom: 121px;
+    padding-left: 80px;
+}
+
+.price .title2 {
+    margin-bottom: 20px;
+}
+
+.price-text {
+    font-size: 16px;
+    color: #50505F;
+    margin-bottom: 50px;
+}
+
+
+.price-table {
+    max-width: 254px;
+    margin-left:0px;
+}
+
+.price-input {
+    padding: 22px 18px;
+    width: 344px;
+    height: 65px;
+    background: #FFFFFF;
+    border: 1px solid #5D5D5F;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #000000;
+    outline: none;
+    margin-bottom: 15px;
+}
+
+.price .button {
+    width: 100%;
+}
+
+.price-image {
+    position: absolute;
+    bottom: 0;
+    left: 401px;
+}
+
+/* .footer {
+    border-top: 1px solid #E5E5E5;
+    padding: 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rights {
+    font-size: 15px;
+    color: #030305;
+} */
+.review-txt{
+    font-size:30px;
+    color: #50505F;
+    margin-bottom: 50px;
+}
+.review{
+    width: 1000px;
+    height: 200px;
+}
+.cust-review{
+    width: 400px;
+    height: 150px;
+    margin-bottom:40px;
+    font-size:20px;
+    outline:none;
+    padding:22px 18px;
+    box-sizing:border-box;
+
+}
+.footer{
+    background-color: #aabbd7;
+    margin-top:100px;
+    height: 220px;
+    width: 1000px;
+    padding:10px;
+}
+.num{
+    font-weight:bold;
+}
+.inst{
+    font-weight:bold;
+}
+h4{
+    margin-top:14px;
+    font-weight:lighter;
+    font-size:23px;
+}
+.review-send{
+    width: 90px;
+    height: 40px;
+    background-color: #0e0e0e;
+    border-radius:5px;
+    color:white;
+    margin-left:40px;
+    border:none;
+    text-transform:uppercase ;
+}

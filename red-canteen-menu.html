@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./red-canteen-menu.css">
+</head>
+
+<body>
+    <div class="main">
+        <hr>
+        <h1>Red Canteen МЕНЮ</h1>
+        <hr>
+        <ul>
+            <li class="item">конверт___________________________ <b>350</b><button class="action" onclick = "addtoTotal(350)">Выбрать</button></li>
+            <li class="item">круассан с шоколадом ______________ <b>320</b><button class="action" onclick = "addtoTotal(320)">Выбрать</button></li>
+            <li class="item">круассан со сгущенкой ____________ <b>320</b><button class="action" onclick = "addtoTotal(320)">Выбрать</button></li>
+            <li class="item">поча _____________________________ <b>220</b><button class="action" onclick = "addtoTotal(220)">Выбрать</button></li>
+            <li class="item">самса с курицей ___________________ <b>320</b><button class="action" onclick = "addtoTotal(320)">Выбрать</button></li>
+            <li class="item">сосиска в тесте __________________ <b>280</b><button class="action" onclick = "addtoTotal(280)">Выбрать</button></li>
+            <li class="item">три шоколада _____________________ <b>600</b><button class="action" onclick = "addtoTotal(600)">Выбрать</button></li>
+            <li class="item">красный бархат ___________________ <b>600</b><button class="action" onclick = "addtoTotal(600)">Выбрать</button></li>
+            <li class="item">вупи пай _________________________ <b>600</b><button class="action" onclick = "addtoTotal(600)">Выбрать</button></li>
+            <li class="item">терамису _________________________ <b>600</b><button class="action" onclick = "addtoTotal(600)">Выбрать</button></li>
+            <li class="item">ачма _____________________________ <b>270</b><button class="action" onclick = "addtoTotal(270)">Выбрать</button></li>
+            <li class="item">пончики __________________________ <b>390</b><button class="action" onclick = "addtoTotal(390)">Выбрать</button></li>
+        </ul>
+        <div>
+            <h3>Итого: <span id="total">0</span></h3>
+            <button onclick="clearTotal()">Очистить корзину</button>
+            
+        </div>
+    </div>
+    <section class="price" id="price">
+        <h2 class="title2">Payment</h2>
+        <div class="price-text">
+            Fill out the data in order to pay
+        </div>
+        <div action="" class="price-table">
+            <input type="text" class="price-input" id="name" placeholder="Your Name">
+            <input type="text" class="price-input" id="phone" placeholder="Your card number">
+            <input type="text" class="price-input" id="car" placeholder="A number on the back of the card">
+            <button class="button price-button" id="price-button" type="button">Pay</button>
+        </div>
+
+    </section>
+    <script src="red-canteen-menu.js"> </script>
+</body>
+
+</html>

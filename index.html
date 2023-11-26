@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uni eats</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <img src="https://sdu.edu.kz/wp-content/uploads/2023/08/logo-1024x1016.png"
+                alt="logo" class="sdu">
+            
+        </div>
+        <div class="menu">
+            <ul>
+                <li>
+                    <a href="#cont">Contact us</a>
+                </li>
+                <li>
+                    <a href="#goal">Leave a review</a>
+                </li>
+                <li>
+                    <a href="#cont">Help to us</a>
+                </li>
+                
+            </ul>
+           
+        </div>
+    </header>
+
+    <section class="main">
+        <div class="info">
+            <h1 class="title">Uni Eats</h1>
+            <p class="text">
+               We eat
+            </p>
+            <div class="action">
+                <!-- <button class="button" id="main-button">Order food</button> -->
+            </div>
+        </div>
+    </section>
+    <section class="order-type" >
+        <h2 class="title2">Order types</h2>
+        <div class="order-types">
+            <div class="order-item">
+                <div class="order-image">
+                    <img src="https://img.freepik.com/free-vector/top-view-of-dishes-on-restaurant-table_23-2147913090.jpg?w=1380&t=st=1700939986~exp=1700940586~hmac=6775e7e6398bfb0d21fa8885d4f5f17ef15ced557e0361b0ca385acf1f666aaa" alt="image1">
+                </div>
+                <p class="order-name">Ashana</p>
+                <div class="order-info">
+                    
+                    
+                </div>
+                <div class="order-action">
+                    <button class="button car-button" onclick = "redirectToAnotherPage1()"></a>Order</button>
+                </div>
+            </div>
+            <div class="order-item">
+                <div class="order-image">
+                    <img src="https://img.freepik.com/free-vector/top-view-of-dishes-on-restaurant-table_23-2147913084.jpg?t=st=1700939986~exp=1700940586~hmac=959f1061d45e0a8b597c66544bd911657db0ad12f1ab32ca056057ca65b08751"
+                        alt="image2">
+                </div>
+                <p class="order-name">Red Canteen</p>
+                <div class="order-info">
+                    
+                   
+                </div>
+                <div class="order-action">
+                    <button class="button car-button" onclick = "redirectToAnotherPage2()"></a>Order</button>
+                </div>
+            </div>
+            <div class="order-item">
+                <div class="order-image">
+                    <img
+                        src="https://img.freepik.com/premium-vector/italian-foods-doodle_429481-24.jpg">
+                </div>
+                <p class="order-name">Fast Food</p>
+                <div class="order-info">
+                    
+                    
+                </div>
+                <div class="order-action">
+                    <button class="button car-button" onclick = "redirectToAnotherPage3()"></a>Order</button>
+                </div>
+            </div>
+            
+            
+           
+    <section class="price" id="price">
+        <h2 class="title2">Table Reservation</h2>
+        <div class="price-text">
+            Fill out the data in order to reserve a table
+        </div>
+        <div action="" class="price-table">
+            <input type="text" class="price-input" id="name" placeholder="Your Name">
+            <input type="text" class="price-input" id="phone" placeholder="Your phone number">
+            <input type="text" class="price-input" id="car" placeholder="A place that you want:<floor>,<seat>">
+            <button class="button price-button" id="price-button" type="button">Reserve</button>
+        </div>
+
+    </section>
+
+  
+
+    <div class = "review" id="goal">
+         <hr>
+        <p class = "review-txt">Here you can leave your review about the food or service quality</p>
+        <input type="text" class = "cust-review" placeholder = "Write something..." id="txt" >
+        <button class = "review-send" onclick = "sendReview()">Send</button>
+    </div>
+    <div class = "footer" id="cont">
+        
+        <div class = "contacts">
+            <h4>Our contacts</h4>
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+            <p><span class = "num">phone number:</span>:+7 777 77 77</p>
+            <p><span class = "inst">instagram:</span>uni_eats</p>
+            <h4>Help authors</h4>
+            <p><span class = "inst" >card number</span>4400 1122 3344</p>
+        </div>
+    </div>
+   
+
+    
+
+    
+    <script src="script.js"> </script>
+
+</body>
+
+</html>

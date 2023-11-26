@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./ashana-menu.css">
+</head>
+
+<body>
+    <div class="main">
+        <h1>Ashana МЕНЮ</h1>
+        <div class="submain">
+            <div class="ashana1">
+                <hr>
+                <h3>Первые блюда:</h3>
+                <hr>
+                <ul>
+                    <li class="item">чечевичный суп ____________ <b>1090</b><button class="action" onclick="addToTotal(1090)">Выбрать</button></li>
+                    <li class="item">көже _______________________ <b>990</b><button class="action" onclick = "addToTotal(990)">Выбрать</button></li>
+                    <li class="item">борщ ______________________ <b>1190</b><button class="action" onclick = "addToTotal(1190)">Выбрать</button></li>
+                    <li class="item">куриный суп _______________ <b>1090</b><button class="action" onclick = "addToTotal(1090)">Выбрать</button></li>
+                    <li class="item">пельмени ___________________ <b>990</b><button class="action" onclick = "addToTotal(990)">Выбрать</button></li>
+                </ul>
+                <hr>
+                <h3>Салаты:</h3>
+                <hr>
+                <ul>
+                    <li class="item">цезарь ____________________ <b>690</b><button class="action" onclick = "addToTotal(690)">Выбрать</button></li>
+                    <li class="item">греческий _________________ <b>590</b><button class="action" onclick = "addToTotal(590)">Выбрать</button></li>
+                    <li class="item">оливье ____________________ <b>690</b><button class="action" onclick = "addToTotal(690)">Выбрать</button></li>
+                    <li class="item">свежий ____________________ <b>490</b><button class="action" onclick = "addToTotal(490)">Выбрать</button></li>
+                    <li class="item">корейский _________________ <b>590</b><button class="action" onclick = "addToTotal(590)">Выбрать</button></li>
+                </ul>
+            </div>
+
+            <div >
+                <hr>
+                <h3>Гарниры:</h3>
+                <hr>
+                <ul>
+                    <li class="item">гречка ____________________ <b>500</b><button class="action" onclick = "addToTotal(500)">Выбрать</button></li>
+                    <li class="item">пюре ______________________ <b>500</b><button class="action" onclick = "addToTotal(500)">Выбрать</button></li>
+                    <li class="item">рис _______________________ <b>500</b><button class="action" onclick = "addToTotal(500)">Выбрать</button></li>
+                    <li class="item">макароны __________________ <b>500</b><button class="action" onclick = "addToTotal(500)">Выбрать</button></li>
+                </ul>
+                <hr>
+                <h3>Вторые блюда:</h3>
+                <hr>
+                <ul>
+                    <li class="item">цомян _____________________ <b>1590</b><button class="action" onclick = "addToTotal(1590)">Выбрать</button></li>
+                    <li class="item">гуляш _____________________ <b>1990</b><button class="action" onclick = "addToTotal(1990)">Выбрать</button></li>
+                    <li class="item">манты _____________________ <b>2190</b><button class="action" onclick = "addToTotal(2190)">Выбрать</button></li>
+                    <li class="item">ханум _____________________ <b>1790</b><button class="action" onclick = "addToTotal(1790)">Выбрать</button></li>
+                    <li class="item">курица с карри ____________ <b>1190</b><button class="action" onclick = "addToTotal(1190)">Выбрать</button></li>
+                    <li class="item">плов ______________________ <b>1890</b><button class="action" onclick = "addToTotal(1890)">Выбрать</button></li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <h3>Итого: <span id="total">0</span></h3>
+            <button onclick="clearTotal()">Очистить корзину</button>
+            
+        </div>
+    </div>
+    <section class="price" id="help">
+        <h2 class="title2">Payment</h2>
+        <div class="price-text">
+            Fill out the data in order to pay
+        </div>
+        <div action="" class="price-table">
+            <input type="text" class="price-input" id="name" placeholder="Your Name">
+            <input type="text" class="price-input" id="phone" placeholder="Your card number">
+            <input type="text" class="price-input" id="car" placeholder="A number on the back of the card">
+            <button class="button price-button" id="price-button" type="button">Pay</button>
+        </div>
+
+    </section>
+
+    <script src="ashana-menu.js"> </script>
+</body>
+
+</html>
