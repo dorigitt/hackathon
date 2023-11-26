@@ -1,4 +1,4 @@
-function showOAvtoPark() {
+function showAvtoPark() {
     document.getElementById('order').scrollIntoView({ behavior: "smooth" });
 }
 
